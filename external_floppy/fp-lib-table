@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name atari_floppy)(type KiCad)(uri ${KIPRJMOD}/atari_floppy.pretty)(options "")(descr ""))
-)

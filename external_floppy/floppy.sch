@@ -86,28 +86,6 @@ F 3 "" H 2000 1100 50  0001 C CNN
 	1    2000 1100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:DB15_Female_MountingHoles J3
-U 1 1 5FC416BA
-P 4450 1050
-F 0 "J3" V 4742 1006 50  0000 C CNN
-F 1 "DATA_IN" V 4651 1006 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-15_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 4450 1050 50  0001 C CNN
-F 3 " ~" H 4450 1050 50  0001 C CNN
-	1    4450 1050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x17_Odd_Even J4
-U 1 1 5FC468F3
-P 4450 2450
-F 0 "J4" V 4546 3329 50  0000 L CNN
-F 1 "FLOPPY" V 4455 3329 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Horizontal" H 4450 2450 50  0001 C CNN
-F 3 "~" H 4450 2450 50  0001 C CNN
-	1    4450 2450
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	1850 1250 2000 1250
 Connection ~ 2000 1250
@@ -195,161 +173,20 @@ Wire Wire Line
 Wire Wire Line
 	1050 2500 1050 2400
 $Comp
-L power:GND #PWR08
-U 1 1 5FC5A5CD
-P 5350 1450
-F 0 "#PWR08" H 5350 1200 50  0001 C CNN
-F 1 "GND" H 5355 1277 50  0000 C CNN
-F 2 "" H 5350 1450 50  0001 C CNN
-F 3 "" H 5350 1450 50  0001 C CNN
-	1    5350 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR07
 U 1 1 5FC5B179
-P 3450 2650
-F 0 "#PWR07" H 3450 2400 50  0001 C CNN
-F 1 "GND" H 3455 2477 50  0000 C CNN
-F 2 "" H 3450 2650 50  0001 C CNN
-F 3 "" H 3450 2650 50  0001 C CNN
-	1    3450 2650
-	1    0    0    -1  
+P 5300 3550
+F 0 "#PWR07" H 5300 3300 50  0001 C CNN
+F 1 "GND" H 5305 3377 50  0000 C CNN
+F 2 "" H 5300 3550 50  0001 C CNN
+F 3 "" H 5300 3550 50  0001 C CNN
+	1    5300 3550
+	0    -1   -1   0   
 $EndComp
-NoConn ~ 5050 1350
-Wire Wire Line
-	3450 2650 3650 2650
-Connection ~ 3650 2650
-Wire Wire Line
-	3650 2650 3750 2650
-Connection ~ 3750 2650
-Wire Wire Line
-	3750 2650 3850 2650
-Connection ~ 3850 2650
-Wire Wire Line
-	3850 2650 3950 2650
-Connection ~ 3950 2650
-Wire Wire Line
-	3950 2650 4050 2650
-Connection ~ 4050 2650
-Wire Wire Line
-	4050 2650 4150 2650
-Connection ~ 4150 2650
-Wire Wire Line
-	4150 2650 4250 2650
-Connection ~ 4250 2650
-Wire Wire Line
-	4250 2650 4350 2650
-Connection ~ 4350 2650
-Wire Wire Line
-	4350 2650 4450 2650
-Connection ~ 4450 2650
-Wire Wire Line
-	4450 2650 4550 2650
-Connection ~ 4550 2650
-Wire Wire Line
-	4550 2650 4650 2650
-Connection ~ 4650 2650
-Wire Wire Line
-	4650 2650 4750 2650
-Connection ~ 4750 2650
-Wire Wire Line
-	4750 2650 4850 2650
-Connection ~ 4850 2650
-Wire Wire Line
-	4850 2650 4950 2650
-Connection ~ 4950 2650
-Wire Wire Line
-	4950 2650 5050 2650
-Connection ~ 5050 2650
-Wire Wire Line
-	5050 2650 5150 2650
-NoConn ~ 5250 2650
-NoConn ~ 5250 2150
-Wire Wire Line
-	3750 1350 3750 1850
-Wire Wire Line
-	3750 1850 3850 1850
-Wire Wire Line
-	3850 1850 3850 2150
-Wire Wire Line
-	4450 2150 4450 1750
-Wire Wire Line
-	4450 1750 3850 1750
-Wire Wire Line
-	3850 1750 3850 1350
-Wire Wire Line
-	3750 2150 3750 1950
-Wire Wire Line
-	3750 1950 3950 1950
-Wire Wire Line
-	3950 1950 3950 1350
-Wire Wire Line
-	4350 2150 4350 1850
-Wire Wire Line
-	4350 1850 4050 1850
-Wire Wire Line
-	4050 1850 4050 1350
-Wire Wire Line
-	4250 1350 4250 2150
-Wire Wire Line
-	4950 2150 4950 1550
-Wire Wire Line
-	4950 1550 4350 1550
-Wire Wire Line
-	4350 1550 4350 1350
-Wire Wire Line
-	4450 1350 4450 1650
-Wire Wire Line
-	4450 1650 4150 1650
-Wire Wire Line
-	4150 1650 4150 2150
-Wire Wire Line
-	4850 2150 4850 1750
-Wire Wire Line
-	4850 1750 4550 1750
-Wire Wire Line
-	4550 1750 4550 1350
-Wire Wire Line
-	4050 2150 4050 1950
-Wire Wire Line
-	4050 1950 4650 1950
-Wire Wire Line
-	4650 1950 4650 1350
-NoConn ~ 4750 1350
-Wire Wire Line
-	3950 2150 3950 2050
-Wire Wire Line
-	3950 2050 4750 2050
-Wire Wire Line
-	4750 2050 4750 1650
-Wire Wire Line
-	4750 1650 4850 1650
-Wire Wire Line
-	4850 1650 4850 1350
-Wire Wire Line
-	4550 2150 4550 1850
-Wire Wire Line
-	4550 1850 5150 1850
-Wire Wire Line
-	5150 1850 5150 1350
-Wire Wire Line
-	4150 1350 4150 1450
-Wire Wire Line
-	4150 1450 4950 1450
-Wire Wire Line
-	5350 1450 5350 1050
-Wire Wire Line
-	4950 1350 4950 1450
-Connection ~ 4950 1450
-Wire Wire Line
-	4950 1450 5350 1450
-Connection ~ 5350 1450
-NoConn ~ 5150 2150
-NoConn ~ 5050 2150
-NoConn ~ 4750 2150
-NoConn ~ 4650 2150
-NoConn ~ 3650 2150
+NoConn ~ 5300 1750
+NoConn ~ 4800 1850
+NoConn ~ 4800 1950
+NoConn ~ 4800 2350
 Wire Wire Line
 	1400 1250 1550 1250
 Wire Wire Line
@@ -360,4 +197,145 @@ Wire Wire Line
 	2000 1250 2000 1100
 Wire Wire Line
 	2450 1550 2450 1700
+$Comp
+L Connector_Generic:Conn_01x14 J?
+U 1 1 5FE91E46
+P 3450 2650
+F 0 "J?" V 3667 2596 50  0000 C CNN
+F 1 "Conn_01x14" V 3576 2596 50  0000 C CNN
+F 2 "" H 3450 2650 50  0001 C CNN
+F 3 "~" H 3450 2650 50  0001 C CNN
+	1    3450 2650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2650 3650 2650
+Wire Wire Line
+	3650 2750 4800 2750
+Wire Wire Line
+	4800 2850 3650 2850
+Wire Wire Line
+	3650 2950 4800 2950
+Wire Wire Line
+	4800 3050 3650 3050
+Wire Wire Line
+	3650 3150 4800 3150
+Wire Wire Line
+	4800 3250 3650 3250
+Connection ~ 5300 2150
+Wire Wire Line
+	5300 2150 5300 2050
+Connection ~ 5300 2050
+Wire Wire Line
+	5300 1950 5300 1850
+Wire Wire Line
+	5300 2050 5300 1950
+Connection ~ 5300 1950
+Wire Wire Line
+	5300 3550 5300 3350
+Connection ~ 5300 3350
+Wire Wire Line
+	5300 3350 5300 3250
+Connection ~ 5300 3250
+Wire Wire Line
+	5300 3250 5300 3150
+Connection ~ 5300 3150
+Wire Wire Line
+	5300 3150 5300 3050
+Connection ~ 5300 3050
+Wire Wire Line
+	5300 3050 5300 2950
+Connection ~ 5300 2950
+Wire Wire Line
+	5300 2950 5300 2850
+Connection ~ 5300 2850
+Wire Wire Line
+	5300 2850 5300 2750
+Connection ~ 5300 2750
+Wire Wire Line
+	5300 2750 5300 2650
+Connection ~ 5300 2650
+Wire Wire Line
+	5300 2650 5300 2550
+Connection ~ 5300 2550
+Wire Wire Line
+	5300 2550 5300 2450
+Connection ~ 5300 2450
+Wire Wire Line
+	5300 2450 5300 2350
+Connection ~ 5300 2350
+Wire Wire Line
+	5300 2250 5300 2150
+Wire Wire Line
+	5300 2350 5300 2250
+Connection ~ 5300 2250
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even J4
+U 1 1 5FC468F3
+P 5100 2550
+F 0 "J4" V 5196 3429 50  0000 L CNN
+F 1 "FLOPPY" V 5105 3429 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Horizontal" H 5100 2550 50  0001 C CNN
+F 3 "~" H 5100 2550 50  0001 C CNN
+	1    5100 2550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2550 3650 2550
+Wire Wire Line
+	4800 2450 3650 2450
+Wire Wire Line
+	4800 2250 4050 2250
+Wire Wire Line
+	4050 2250 4050 2350
+Wire Wire Line
+	4050 2350 3650 2350
+Wire Wire Line
+	4800 2150 3950 2150
+Wire Wire Line
+	3950 2150 3950 2250
+Wire Wire Line
+	3950 2250 3650 2250
+Wire Wire Line
+	4800 2050 3850 2050
+Wire Wire Line
+	3850 2050 3850 2150
+Wire Wire Line
+	3850 2150 3650 2150
+Wire Wire Line
+	4800 3350 3650 3350
+Wire Wire Line
+	4800 1750 3750 1750
+Wire Wire Line
+	3750 2050 3650 2050
+Wire Wire Line
+	3750 1750 3750 2050
+Text Label 4800 2050 2    50   ~ 0
+FLOPPY_INDEX
+Text Label 4800 2150 2    50   ~ 0
+FLOPPY_SELECT_A
+Text Label 4800 2250 2    50   ~ 0
+FLOPPY_SELECT_B
+Text Label 4800 2450 2    50   ~ 0
+FLOPPY_MOTOR_ON
+Text Label 4800 2550 2    50   ~ 0
+FLOPPY_STEP_DIRECTION
+Text Label 4800 2650 2    50   ~ 0
+FLOPPY_STEP
+Text Label 4800 2750 2    50   ~ 0
+FLOPPY_WRITE_DATA
+Text Label 4800 2850 2    50   ~ 0
+FLOPPY_WRITE_GATE
+Text Label 4800 2950 2    50   ~ 0
+FLOPPY_TRACK_00
+Text Label 4800 3050 2    50   ~ 0
+FLOPPY_WRITE_PROTECT
+Text Label 4800 3150 2    50   ~ 0
+FLOPPY_READ_DATA
+Text Label 4800 3250 2    50   ~ 0
+FLOPPY_SIDE_SELECT
+Text Label 4800 3350 2    50   ~ 0
+FLOPPY_READY
+Text Label 4800 1750 2    50   ~ 0
+FLOPPY_DISKCHANGE
 $EndSCHEMATC
