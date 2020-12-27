@@ -1,0 +1,99 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x14 J?
+U 1 1 5FE91E46
+P 3450 2650
+F 0 "J?" V 3667 2596 50  0000 C CNN
+F 1 "ADAPTER" V 3576 2596 50  0000 C CNN
+F 2 "" H 3450 2650 50  0001 C CNN
+F 3 "~" H 3450 2650 50  0001 C CNN
+	1    3450 2650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2650 3650 2650
+Wire Wire Line
+	3650 2750 4800 2750
+Wire Wire Line
+	4800 2850 3650 2850
+Wire Wire Line
+	3650 2950 4800 2950
+Wire Wire Line
+	4800 3050 3650 3050
+Wire Wire Line
+	3650 3150 4800 3150
+Wire Wire Line
+	4800 3250 3650 3250
+Wire Wire Line
+	4800 2550 3650 2550
+Wire Wire Line
+	4800 2450 3650 2450
+Wire Wire Line
+	4800 2250 4050 2250
+Wire Wire Line
+	4050 2250 4050 2350
+Wire Wire Line
+	4050 2350 3650 2350
+Wire Wire Line
+	4800 2150 3950 2150
+Wire Wire Line
+	3950 2150 3950 2250
+Wire Wire Line
+	3950 2250 3650 2250
+Wire Wire Line
+	4800 2050 3850 2050
+Wire Wire Line
+	3850 2050 3850 2150
+Wire Wire Line
+	3850 2150 3650 2150
+Wire Wire Line
+	4800 3350 3650 3350
+Wire Wire Line
+	4800 1750 3750 1750
+Wire Wire Line
+	3750 2050 3650 2050
+Wire Wire Line
+	3750 1750 3750 2050
+Text Label 4800 2050 2    50   ~ 0
+FLOPPY_INDEX
+Text Label 4800 2150 2    50   ~ 0
+FLOPPY_SELECT_A
+Text Label 4800 2250 2    50   ~ 0
+FLOPPY_SELECT_B
+Text Label 4800 2450 2    50   ~ 0
+FLOPPY_MOTOR_ON
+Text Label 4800 2550 2    50   ~ 0
+FLOPPY_STEP_DIRECTION
+Text Label 4800 2650 2    50   ~ 0
+FLOPPY_STEP
+Text Label 4800 2750 2    50   ~ 0
+FLOPPY_WRITE_DATA
+Text Label 4800 2850 2    50   ~ 0
+FLOPPY_WRITE_GATE
+Text Label 4800 2950 2    50   ~ 0
+FLOPPY_TRACK_00
+Text Label 4800 3050 2    50   ~ 0
+FLOPPY_WRITE_PROTECT
+Text Label 4800 3150 2    50   ~ 0
+FLOPPY_READ_DATA
+Text Label 4800 3250 2    50   ~ 0
+FLOPPY_SIDE_SELECT
+Text Label 4800 3350 2    50   ~ 0
+FLOPPY_READY
+Text Label 4800 1750 2    50   ~ 0
+FLOPPY_DISKCHANGE
+$EndSCHEMATC
