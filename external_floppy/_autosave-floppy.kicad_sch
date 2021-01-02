@@ -1362,7 +1362,7 @@
   (symbol (lib_id "power:GND") (at 113.03 133.35 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "86c8debe-a504-4f15-b922-97104be1137e")
-    (property "Reference" "#PWR?" (id 0) (at 113.03 139.7 0)
+    (property "Reference" "#PWR0104" (id 0) (at 113.03 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 114.3 138.43 0))
@@ -1392,7 +1392,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 105.41 130.81 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "8d913606-4842-4a06-8920-27df9773221c")
-    (property "Reference" "H?" (id 0) (at 109.22 129.54 0)
+    (property "Reference" "H1" (id 0) (at 109.22 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (id 1) (at 109.22 132.08 0)
@@ -1409,7 +1409,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 110.49 130.81 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "ef780470-5014-4465-9c06-f868cd7bedd3")
-    (property "Reference" "H?" (id 0) (at 114.3 129.54 0)
+    (property "Reference" "H2" (id 0) (at 114.3 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (id 1) (at 114.3 132.08 0)
@@ -1426,7 +1426,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 115.57 130.81 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "cc995442-67f0-4be6-ba09-42302e9e6530")
-    (property "Reference" "H?" (id 0) (at 119.38 129.54 0)
+    (property "Reference" "H3" (id 0) (at 119.38 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (id 1) (at 119.38 132.08 0)
@@ -1443,7 +1443,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 120.65 130.81 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "d19e5e46-d244-4a0a-9c50-ce64a47de76d")
-    (property "Reference" "H?" (id 0) (at 124.46 129.54 0)
+    (property "Reference" "H4" (id 0) (at 124.46 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (id 1) (at 124.46 132.08 0)
@@ -1646,7 +1646,7 @@
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/86c8debe-a504-4f15-b922-97104be1137e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fc399bb"
       (reference "C1") (unit 1) (value "470uF") (footprint "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm")
@@ -1658,16 +1658,16 @@
       (reference "D1") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal")
     )
     (path "/8d913606-4842-4a06-8920-27df9773221c"
-      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
-    )
-    (path "/cc995442-67f0-4be6-ba09-42302e9e6530"
-      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
-    )
-    (path "/d19e5e46-d244-4a0a-9c50-ce64a47de76d"
-      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
+      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
     )
     (path "/ef780470-5014-4465-9c06-f868cd7bedd3"
-      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
+      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
+    )
+    (path "/cc995442-67f0-4be6-ba09-42302e9e6530"
+      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
+    )
+    (path "/d19e5e46-d244-4a0a-9c50-ce64a47de76d"
+      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom")
     )
     (path "/00000000-0000-0000-0000-00005fc2b4e0"
       (reference "J1") (unit 1) (value "12VDC") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
