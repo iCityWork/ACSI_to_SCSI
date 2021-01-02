@@ -984,10 +984,10 @@
   (junction (at 134.62 82.55) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 134.62 85.09) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 121.92 59.69))
   (no_connect (at 121.92 46.99))
   (no_connect (at 121.92 49.53))
   (no_connect (at 134.62 44.45))
+  (no_connect (at 121.92 59.69))
 
   (wire (pts (xy 26.67 63.5) (xy 26.67 60.96))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -1396,7 +1396,7 @@
     (uuid "ebd9fdfc-3919-4a03-8180-54d97bd03282")
     (property "Reference" "SW1" (id 0) (at 41.91 105.41 0))
     (property "Value" "SW_DPDT_x2" (id 1) (at 41.91 107.95 0))
-    (property "Footprint" "" (id 2) (at 41.91 113.03 0)
+    (property "Footprint" "Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled" (id 2) (at 41.91 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 113.03 0)
@@ -1409,7 +1409,7 @@
     (uuid "60153e7c-7d60-42d1-a9fe-98c5063cb180")
     (property "Reference" "SW1" (id 0) (at 41.91 119.38 0))
     (property "Value" "SW_DPDT_x2" (id 1) (at 41.91 121.92 0))
-    (property "Footprint" "" (id 2) (at 41.91 127 0)
+    (property "Footprint" "Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled" (id 2) (at 41.91 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 127 0)
@@ -1465,7 +1465,7 @@
     (property "Value" "FLOPPY" (id 1) (at 129.413 42.4434 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Horizontal" (id 2) (at 129.54 64.77 0)
+    (property "Footprint" "Connector_IDC:IDC-Header_2x17_P2.54mm_Vertical" (id 2) (at 129.54 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 129.54 64.77 0)
@@ -1534,13 +1534,13 @@
       (reference "J3") (unit 1) (value "ADAPTER") (footprint "Connector_IDC:IDC-Header_2x08_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005fc468f3"
-      (reference "J4") (unit 1) (value "FLOPPY") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Horizontal")
+      (reference "J4") (unit 1) (value "FLOPPY") (footprint "Connector_IDC:IDC-Header_2x17_P2.54mm_Vertical")
     )
     (path "/ebd9fdfc-3919-4a03-8180-54d97bd03282"
-      (reference "SW1") (unit 1) (value "SW_DPDT_x2") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_DPDT_x2") (footprint "Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled")
     )
     (path "/60153e7c-7d60-42d1-a9fe-98c5063cb180"
-      (reference "SW1") (unit 2) (value "SW_DPDT_x2") (footprint "")
+      (reference "SW1") (unit 2) (value "SW_DPDT_x2") (footprint "Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled")
     )
     (path "/00000000-0000-0000-0000-00005fc363e4"
       (reference "U1") (unit 1) (value "L7805") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")

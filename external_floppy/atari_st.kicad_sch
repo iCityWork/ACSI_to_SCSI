@@ -312,9 +312,9 @@
 
   (junction (at 138.43 87.63) (diameter 0.9144) (color 0 0 0 0))
 
-  (no_connect (at 121.92 52.07))
   (no_connect (at 121.92 85.09))
   (no_connect (at 92.71 87.63))
+  (no_connect (at 121.92 52.07))
 
   (wire (pts (xy 92.71 52.07) (xy 121.92 52.07))
     (stroke (width 0) (type solid) (color 0 0 0 0))
