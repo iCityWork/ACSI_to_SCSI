@@ -971,9 +971,9 @@
   (junction (at 134.62 85.09) (diameter 0.9144) (color 0 0 0 0))
 
   (no_connect (at 121.92 59.69))
-  (no_connect (at 134.62 44.45))
-  (no_connect (at 121.92 49.53))
   (no_connect (at 121.92 46.99))
+  (no_connect (at 121.92 49.53))
+  (no_connect (at 134.62 44.45))
 
   (wire (pts (xy 26.67 63.5) (xy 26.67 60.96))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -1359,7 +1359,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 69.85 100.33 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "ebd9fdfc-3919-4a03-8180-54d97bd03282")
-    (property "Reference" "SW?" (id 0) (at 69.85 92.71 0))
+    (property "Reference" "SW1" (id 0) (at 69.85 92.71 0))
     (property "Value" "SW_DPDT_x2" (id 1) (at 69.85 95.25 0))
     (property "Footprint" "" (id 2) (at 69.85 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1372,7 +1372,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 69.85 114.3 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid "60153e7c-7d60-42d1-a9fe-98c5063cb180")
-    (property "Reference" "SW?" (id 0) (at 69.85 106.68 0))
+    (property "Reference" "SW1" (id 0) (at 69.85 106.68 0))
     (property "Value" "SW_DPDT_x2" (id 1) (at 69.85 109.22 0))
     (property "Footprint" "" (id 2) (at 69.85 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1411,9 +1411,9 @@
   (symbol (lib_id "Connector_Generic:Conn_01x14") (at 87.63 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005fe91e46")
-    (property "Reference" "J?" (id 0) (at 82.1182 68.6816 90))
+    (property "Reference" "J3" (id 0) (at 82.1182 68.6816 90))
     (property "Value" "ADAPTER" (id 1) (at 84.4296 68.6816 90))
-    (property "Footprint" "" (id 2) (at 87.63 67.31 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" (id 2) (at 87.63 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 87.63 67.31 0)
@@ -1492,23 +1492,29 @@
     (path "/00000000-0000-0000-0000-00005fc54f3f"
       (reference "J2") (unit 1) (value "FLOPPY_PWR") (footprint "atari_floppy:171826-4")
     )
+    (path "/00000000-0000-0000-0000-00005fe91e46"
+      (reference "J3") (unit 1) (value "ADAPTER") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical")
+    )
     (path "/00000000-0000-0000-0000-00005fc468f3"
       (reference "J4") (unit 1) (value "FLOPPY") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-00005fe91e46"
-      (reference "J?") (unit 1) (value "ADAPTER") (footprint "")
-    )
     (path "/ebd9fdfc-3919-4a03-8180-54d97bd03282"
-      (reference "SW?") (unit 1) (value "SW_DPDT_x2") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_DPDT_x2") (footprint "")
     )
     (path "/60153e7c-7d60-42d1-a9fe-98c5063cb180"
-      (reference "SW?") (unit 2) (value "SW_DPDT_x2") (footprint "")
+      (reference "SW1") (unit 2) (value "SW_DPDT_x2") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fc363e4"
       (reference "U1") (unit 1) (value "L7805") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
     )
-    (path "/214e5bd1-de3c-4ec2-8553-5b0be1a71a0f/00000000-0000-0000-0000-00005fe91e46"
-      (reference "J?") (unit 1) (value "ADAPTER") (footprint "")
+    (path "/214e5bd1-de3c-4ec2-8553-5b0be1a71a0f/278b2b95-eb2b-4c5f-bd49-6d46efcc2c1d"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/214e5bd1-de3c-4ec2-8553-5b0be1a71a0f/0cefa351-cb06-47b9-89b0-293bb017abf7"
+      (reference "J5") (unit 1) (value "ADAPTER") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Horizontal")
+    )
+    (path "/214e5bd1-de3c-4ec2-8553-5b0be1a71a0f/3e20fa31-0809-47c3-be37-022bd242ab1a"
+      (reference "J6") (unit 1) (value "ATARI") (footprint "parts:DIN14")
     )
   )
 )
